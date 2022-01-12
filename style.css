@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+.wrapper{
+  display: inline-flex;
+  height: 60px;
+  width: 700px;
+  line-height: 60px;
+  border-radius: 7px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper .icons{
+  margin: 0 30px;
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  transition: 0.5s;
+}
+
+.wrapper .icons i{
+  font-size: 25px;
+}
+.wrapper .icons:hover i{
+  opacity: 0;
+}
+
+.wrapper .icons span{
+  font-size: 18px;
+  opacity: 0;
+}
+
+.wrapper .icons:hover span{
+  opacity: 1;
+}
+
+.wrapper .icons:hover{
+  transform: translateY(-100%);
+}
+
+.wrapper .facebook{
+  color: #43609c;
+}
+.wrapper .twitter{
+  color: #00acee;
+}
+.wrapper .youtube{
+  color: #c4302b;
+}
+.wrapper .linkedin{
+  color: #0e76a8;
+}
+.wrapper .github{
+  color: #171515;
+}
